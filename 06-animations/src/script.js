@@ -49,19 +49,6 @@ gsap.to(mesh.position, {
 
 // animation
 const tick = () => {
-  // Time
-  //   const elapsedTime = clock.getElapsedTime();
-
-  //   mesh.position.x = Math.cos(elapsedTime);
-  //   mesh.position.y = Math.sin(elapsedTime);
-  //   mesh.position.z = Math.cos(elapsedTime);
-  // mesh.position.z -= 0.03;
-  //   mesh.rotation.y = elapsedTime;
-
-  //   if (mesh.position.z <= -5) {
-  //     mesh.position.z -= 0.5;
-  //   }
-
   renderer.render(scene, camera);
 
   requestAnimationFrame(tick);
